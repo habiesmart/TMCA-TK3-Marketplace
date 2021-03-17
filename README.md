@@ -1,4 +1,4 @@
-<p align="center"><a href="https://elektrofoton.com" target="_blank"><img src="https://github.com/habiesmart/elektrofoton/blob/main/public/img/elektrofoton-text.png?raw=true" width="300"></a></p>
+<p align="center"><a href="https://elektrofoton.com" target="_blank"><img alt="Elektrofoton" src="https://github.com/habiesmart/elektrofoton/blob/dev/public/img/elektrofoton-text.png?raw=true" width="500"></a></p>
 
 <p align="center">
 <a href="https://github.com/habiesmart/elektrofoton"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>

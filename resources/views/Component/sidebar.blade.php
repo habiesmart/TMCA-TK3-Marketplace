@@ -1,10 +1,10 @@
 <div class="main-sidebar">
     <aside id="sidebar-wrapper">
         <div class="sidebar-brand">
-            <a href="index.html">Olshop-KALBE</a>
+            <a href="index.html">Elektrofoton</a>
         </div>
         <div class="sidebar-brand sidebar-brand-sm">
-            <a href="index.html">KN</a>
+            <a href="index.html">E!</a>
         </div>
         <ul class="sidebar-menu">
             <li class="menu-header">Master</li>

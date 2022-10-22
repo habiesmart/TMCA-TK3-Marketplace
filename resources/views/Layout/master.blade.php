@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no" name="viewport">
-    <title>Elektrofoton</title>
+    <title>Hi, {{auth()->user()->name}}</title>
 
     <!-- General CSS Files -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -18,7 +18,7 @@
     @yield('style')
 </head>
 
-<body>
+<body style="overflow-x: hidden;">
     <div id="app">
         <div class="main-wrapper">
             @include('Component.header')
@@ -28,9 +28,9 @@
             <div class="main-content">
                 <section class="section">
                     <div class="section-header">
-                        <h1>elektrofoton</h1>
+                        <h1>Tugas Oleh Muhammad Nurul Habie Budiman | <i>NIM: 2301955402</i> &nbsp;</h1>
+                        <em>Kunjungi website saya: <a href="https://habiesmart.com">Habiesmart.com</a></em>
                     </div>
-
                     <div class="section-body">
                         @yield('content')
                     </div>

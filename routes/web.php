@@ -41,3 +41,8 @@ Route::get('/checking-counter', [LoginController::class, 'CheckingCounter']);
 Route::get('/Reset-Password', [LoginController::class, 'ResetPassword'])->name('Reset-Password');
 Route::post('/Resetting-Password', [LoginController::class, 'ResettingPassword'])->name('Resetting-Password');
 Route::post('/checking-existing-user', [LoginController::class, 'CheckingExistingUser'])->name('checking-existing-user');
+
+// Barang
+Route::get('/barang-list', [BarangController::class, 'index'])->name('Barang-List')->middleware('auth');
+Route::get('/barang-add', [BarangController::class, 'add'])->name('Barang-Add')->middleware('auth');
+Route::post('/barang-save', [BarangController::class, 'save'])->name('Barang-Save')->middleware('auth');
